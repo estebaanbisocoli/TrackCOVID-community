@@ -6,7 +6,8 @@
     "start": "PORT=3000 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll=false",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "copy-env": "node copy-env.js"
   },
   "dependencies": {
     "@material-ui/core": "latest",
