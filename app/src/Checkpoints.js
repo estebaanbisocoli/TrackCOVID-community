@@ -101,10 +101,6 @@ class Checkpoints extends React.Component {
             <Translation>
               {t => t('learnMoreText')}
             </Translation>
-            <Link href={aboutUrl} target='_blank'>
-              {aboutUrl}
-            </Link>
-            .
           </Typography>
         </Grid>
       )

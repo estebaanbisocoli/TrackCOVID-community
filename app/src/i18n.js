@@ -7,7 +7,7 @@ import es from './translations/es'
 
 const locizeProductId = process.env['REACT_APP_LOCIZE_PRODUCT_ID']
 
-const resources = locizeProductId ? undefined : { en, es }
+const resources = locizeProductId ? undefined : { es }
 
 const i18nSetup = locizeProductId
   ? i18n
@@ -24,7 +24,7 @@ i18nSetup.init({
     projectId: locizeProductId
   },
   load: 'all',
-  fallbackLng: 'en',
+  fallbackLng: 'es',
   keySeparator: false, // we do not use keys in form messages.welcome
   interpolation: {
     escapeValue: false // react already safes from xss
