@@ -27,3 +27,4 @@ ReactDOM.render(
   </ThemeProvider>,
   document.querySelector('#root')
 )
+serviceWorker.register();
