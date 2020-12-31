@@ -25,7 +25,7 @@ module.exports = {
     'elevatedRiskLevelMessage': 'Elevado',
     'yourRiskLevelMessage': 'Su Nivel de Riesgo',
     'aboutReportMessage': 'En el caso de que Usted tenga un resultado Positivo en un test de Covid-19, tiene la oportunidad de proteger a otros anónimamente compartiendo su historial de Visitas.',
-    'downloadHistoryButton': 'Descargar Visitas',
+    'downloadHistoryButton': 'Compartir con personal de salud',
     'elevatedRiskAlertMessage': 'Su nivel de Riesgo es Elevado.',
     'seeStatusTabMessage': 'Mire la Barra de Estado.'
   }
